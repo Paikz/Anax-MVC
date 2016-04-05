@@ -5,8 +5,8 @@
 
 <?php if(isset($byline)) : ?>
 <footer class="byline">
-<?=$byline?>
-<img src="https://pbs.twimg.com/profile_images/595144564958048259/STbMvdZl.jpg" width="100" height="100" style="border-radius: 8px; display: inline-block;" />
+<img class="byline-picture" src="https://pbs.twimg.com/profile_images/595144564958048259/STbMvdZl.jpg" alt="Photo of me" />
+<span class="byline-text"><?=$byline?></span>
 </footer>
 <?php endif; ?>
 

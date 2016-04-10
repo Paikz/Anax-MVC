@@ -12,7 +12,7 @@ return [
     'items' => [
 
         // This is a menu item
-        'home'  => [
+        'Home'  => [
             'text'  => 'Home',
             'url'   => $this->di->get('url')->create(''),
             'title' => 'Home route of current frontcontroller'
@@ -30,6 +30,12 @@ return [
             'text'  =>'Source',
             'url'   => $this->di->get('url')->create('Source'),
             'title' => 'Internal route within this frontcontroller'
+        ],
+
+        'Comments' => [
+            'text'  =>'Comments',
+            'url'   => $this->di->get('url')->create('Comments'),
+            'title' => 'Url to relative frontcontroller, other file'
         ],
     ],
 
